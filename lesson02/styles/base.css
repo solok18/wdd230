@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&family=Playfair+Display&display=swap');
+
+
+body {
+    font-family: Forum, Halvetica, sans-serif;
+}
+p {
+    font-family: Playfair Display, Halvetica, sans-serif;
+}
+
+main {
+    max-width: 767px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 0.8rem;
+    text-align: center;
+    
+}
+main section{
+    margin: 0.5rem;
+    border: 1px solid #000;
+    padding: 0 1rem;
+    background-color: #a9dbde;
+    border-radius: 8px;
+    
+}
+main section h2 {
+    color: #fff;
+    background-color: #000;
+    block-size: auto;
+    
+}
+section h2 {
+    margin: auto;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    
+}
+
+.mobile {
+    width: 100%;
+    padding-top: 1rem;
+}
+header {
+    max-width: 767px;
+    margin: 0 auto;
+    background-color: #a9dbde;
+    text-align: center;
+}
+header h1 h2 {
+    padding-top:5px;
+    padding-bottom: 5px;
+    margin: 0;
+}
+
+footer {
+    max-width: 767px;
+    margin: 0 auto;
+    background-color: #a9dbde;
+    text-align: center;
+    color: #000000;
+    padding: 5px;
+}
+
+
+
