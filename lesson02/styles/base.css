@@ -6,6 +6,7 @@ body {
 }
 p {
     font-family: Playfair Display, Halvetica, sans-serif;
+    text-align: left;
 }
 
 main {
