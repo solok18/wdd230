@@ -2,21 +2,24 @@
 
 
 body {
-    max-width: 960px;
+    /* max-width: 960px;
     margin: 0 auto;
     padding: 4em;
     font-size: 18px;
-    text-align: center;
+    text-align: center; */
     font-family: Forum, Halvetica, sans-serif;
   }
 
 p {
     font-family: Playfair Display, Halvetica, sans-serif;
 }
+
+/* Here is where the menu will be edited */
 nav {
     font-family: Playfair Display, Halvetica, sans-serif;
     background-color: rgb(0, 0, 0);
     padding: 35px;
+    
 }
 nav a {
     
@@ -25,67 +28,147 @@ nav a {
     display: block;
     padding: 15px;
 }
-/* main {
-    width: 100%;
-} */
-.card {
+
+#menu {
+    font-size: 1.5rem;
+    border: 0;
+    background: none;
+    color: #000;
+    position: absolute;
+    right: 0;
+    top: .75em;
+}
+
+#menu::before {
+    content: "☰";
+}
+#menu.open::before {
+    content: "─";
+}
+.navigation {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    background-color: #000;
+    color: #ffffff;
+    
+}
+
+.navigation a {
+    display: none;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.navigation a:hover{
+    background-color: #a9dbde;
+    color: #ffff;
+    font-weight: 700;
+}
+
+/* here i get rid of the list dots on the left side  */
+nav ul {
+    list-style: none;
+}
+nav li {
+    text-align: left;
+}
+nav li a{
+    text-decoration: none;
+}
+
+.open a{
+    display: block;
+}
+
+/* This is to edit the sections of the wensite */
+/* .card {
     margin: auto;
-    /* width: 50%; */
     border: 2px solid rgb(161, 161, 161);
     margin-bottom: 20px;
-    /*border-style: solid;
-    height: 400px;
-    width: 400px;*/
-}
-#self {
-    width: 20%;
-    margin: 30px;
-    
-    /* display: inline-block; */
+ 
+} */
 
+/* This where to edit the image at the header and the header */
+#self {
+    width: 10%;
+    margin: 30px;
 }
-/* #name {
-    vertical-align: middle;
-} */
-footer {
-    margin: auto;
-    /* width: 50%; */
-    background-color: #a9dbde;
-    text-align: center;
-    color: #000000;
-    padding: 10px;
-    
-    
-}
-h3 {
-    text-align: center;
-    background-color: #a9dbde;
-    margin: 0;
-    color: #000000;
-    padding: 10px;
-    
-}
-h2 {
-    margin: auto;
-    width: 100%;
-    text-align: center;
-    
-}
-/* hr {
-    width: 50%;
-} */
+
 header {
     background-color: #a9dbde;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-ul {
+/* here i edit the footer of the webpage  */
+footer {
+    margin: auto;
+    background-color: #a9dbde;
+    text-align: center;
+    color: #000000;
+    padding: 10px;
+    
+    
+}
+
+/* here is to edit the main list  */
+main h2 {
+    width: 100%;
+    grid-column: 1/-1;
+    
+}
+main hr {
+    width: 80%;
+    border-color: black;
+    grid-column: 1/-1;
+  }
+main ul {
     list-style: none;
 }
-li {
+main li {
     text-align: left;
 }
-li a{
+main li a{
     text-decoration: none;
+}
+
+main {
+    /* max-width: 767px; */
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+main section{
+    margin: 0.5rem;
+    border: 1px solid #a9dbde;
+    
+    background-color: #ffffff;
+    border-radius: 8px;
+    
+}
+
+main section h3 {
+    color: #000;
+    background-color: #a9dbde;
+    block-size: auto;
+    
+}
+
+section h3 {
+    margin: auto;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* border-radius: 8px; */
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    
+}
+
+iframe {
+    width: 100%;
 }

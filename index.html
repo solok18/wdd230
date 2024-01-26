@@ -9,12 +9,13 @@
         content="The WDD 230 - Web Frontend Development is her to provide information on Kevin solorzano and show his course assigment portal">
     <meta name="author" content="Kevin Solorzano">
     <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/larger.css">
     <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css"> 
     <link rel="icon" href="favicon.ico">
     <meta property="og:title" content="Kevin Solorzano - WDD 230 - Web Frontend Development">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="https://tourscanner.com/blog/wp-content/uploads/2021/11/fun-things-to-do-in-Sacramento.jpg">
+    <meta property="og:image" content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHTfrLGFFR1SHjoCNSHBGNDuVwonyxOgZlfw&usqp=CAU">
     <meta property="og:url" content="https://solok18.github.io/wdd130/">
 </head>
 <body>
@@ -22,7 +23,8 @@
         <img id="self" src="images/me.jpg" alt="self portrait">
         <h1 id="name">Kevin Solorzano</h1>
     </header>
-    <nav>
+    <button id="menu"></button>
+    <nav class="navigation">
         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="lesson03/chamber-site-plan.html">Site Plan</a></li>
@@ -80,8 +82,10 @@
         </section>
         <section class="card">
             <h3>Information</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi ducimus aspernatur enim distinctio necessitatibus laborum quia ipsam, reprehenderit quod dolorum praesentium temporibus amet suscipit dignissimos, ea accusantium nemo. Laboriosam, hic.</p>
         </section>
     </main>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1964.9327848064381!2d-121.49453029042405!3d38.57670934093247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ad604aa6cdb95%3A0x5420911f181a4d5!2sCalifornia%20State%20Capitol%20Museum!5e0!3m2!1sen!2sus!4v1706248571027!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     <footer>
         <p>
             &copy; 2024 Kevin Solorzano California, USA
@@ -89,5 +93,6 @@
         <p id="lastModified"></p>
     </footer>
     <script src="scripts/getdates.js"></script>
+    <script src="scripts/hamburger.js"></script>
 </body>
 </html>
