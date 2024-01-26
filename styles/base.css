@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Forum&family=Playfair+Display&display=swap');
 
-
+* {
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+}
 body {
     /* max-width: 960px;
     margin: 0 auto;
@@ -8,6 +12,7 @@ body {
     font-size: 18px;
     text-align: center; */
     font-family: Forum, Halvetica, sans-serif;
+    margin: 0;
   }
 
 p {
@@ -17,17 +22,17 @@ p {
 /* Here is where the menu will be edited */
 nav {
     font-family: Playfair Display, Halvetica, sans-serif;
-    background-color: rgb(0, 0, 0);
-    padding: 35px;
+    /* background-color: rgb(0, 0, 0); */
+    /* padding: 35px; */
     
 }
-nav a {
+/* nav a {
     
     color: #ffffff;
     text-decoration: none;
     display: block;
     padding: 15px;
-}
+} */
 
 #menu {
     font-size: 1.5rem;
@@ -53,6 +58,9 @@ nav a {
     color: #ffffff;
     
 }
+.navigation li {
+    text-align: left;
+}
 
 .navigation a {
     display: none;
@@ -68,16 +76,22 @@ nav a {
     font-weight: 700;
 }
 
+
 /* here i get rid of the list dots on the left side  */
 nav ul {
-    list-style: none;
+    /* list-style: none; */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
-nav li {
+/* nav li {
     text-align: left;
-}
-nav li a{
+} */
+/* nav li a{
+    display: block;
     text-decoration: none;
-}
+} */
 
 .open a{
     display: block;
