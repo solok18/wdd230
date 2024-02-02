@@ -92,6 +92,14 @@ header {
     align-items: center;
     justify-content: center;
     color: #E6B800;
+    flex-direction: column; /* this is been use to stack h1 and h2 */
+}
+/* this is to adjust the headers for <h> for now */
+header h1 h2 {
+    margin: 0;
+}
+header h1{
+    margin-bottom:  1px;
 }
 
 /* here i edit the footer of the webpage  */
