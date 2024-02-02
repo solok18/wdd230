@@ -1,0 +1,33 @@
+@media only screen and (min-width: 200em) {
+	main {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+    main section:nth-child(4) {
+		grid-column: span 3;
+	}
+    .hero-image{
+        grid-column: 1/4;
+    }
+
+    nav ul {
+		display: flex;
+		
+		
+	}
+	/* nav ul li {
+		flex: 1 1 100%;
+	} */
+	#menu {
+		display: none; /* hide hamburger button */
+	}
+	.navigation {
+		flex-direction: row;
+		justify-content: space-around;
+	}
+
+	.navigation a {
+		display: block;
+		flex: 1 1 100%;
+	}
+
+}
