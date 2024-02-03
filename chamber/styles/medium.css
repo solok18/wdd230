@@ -13,6 +13,9 @@
     .hero-image{
         grid-column: 1/3;
     }
+	.call-to-action{
+		grid-column: 1/3;
+	}
 
 	main section picture {
 		display: block;

@@ -21,6 +21,13 @@ nav {
     width: 100%;
     height: auto;
 }
+.call-to-action{
+    margin: 0.5rem;
+    border: 1px solid #807033;
+    background-color: #4C462E;
+    border-radius: 8px;
+    color: #E6B800;
+}
 
 #menu {
     font-size: 1.5rem;
