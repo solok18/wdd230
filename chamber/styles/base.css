@@ -112,6 +112,7 @@ main h2 {
     width: 100%;
     grid-column: 1/-1;
     color: #E6B800;
+    background-color: #4C462E;
     
 }
 main hr {
