@@ -63,6 +63,19 @@ nav a:hover {
 */
 
 /* Larger Views ******************************/
+
+ /* @media only screen and (min-width: 60em) {
+	main {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+    main section:nth-child(3) {
+		grid-column: span 1;
+	}
+
+} */
+
+
+
  @media (min-width: 640px) {
 	nav ul {
 		display: flex;
@@ -84,14 +97,5 @@ nav a:hover {
 		display: block;
 		flex: 1 1 100%;
 	}
- }	
-	
- /* @media only screen and (min-width: 60em) {
-	main {
-		grid-template-columns: 1fr 1fr 1fr;
-	}
-    main section:nth-child(3) {
-		grid-column: span 1;
-	}
+ }
 
-} */

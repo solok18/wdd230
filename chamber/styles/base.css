@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Playfair+Display:ital@0;1&display=swap');
 
 * {
- 
+  
     box-sizing: border-box;
 }
 body {
@@ -18,7 +18,8 @@ nav {
     font-family: Playfair Display, Halvetica, sans-serif;
 }
 .hero-image {
-    width: 100vw;
+    width: 100%;
+    height: auto;
 }
 
 #menu {
@@ -77,14 +78,7 @@ nav li {
 .open a{
     display: block;
 }
-
-
-
 /* This where to edit the image at the header and the header */
-#self {
-    width: 10%;
-    margin: 30px;
-}
 
 header {
     background-color: #4C462E;
