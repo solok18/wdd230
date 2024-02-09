@@ -4,8 +4,14 @@ const list = document.querySelector('#list');
 
 button.addEventListener('click', () => {
     if (input.value != '') {
-        const listItem = document.createElement('li');
+        const bookCap = input.value;
 
+        if (bookCap.charAt(0) != bookCap.charAt(0).toUpperCase()){
+            alert('Please start the name with capital letter.');
+            return;
+        }
+
+        const listItem = document.createElement('li');
         const delButtom = document.createElement('button');
 
         listItem.innerHTML = input.value;
