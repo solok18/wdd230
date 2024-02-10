@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Playfair+Display:ital@0;1&display=swap');
 
+
 * {
   
     box-sizing: border-box;
@@ -35,8 +36,8 @@ nav {
     background: none;
     color: #ffffff;
     position: absolute;
-    right: 0;
-    top: .75em;
+    right: 1rem;
+    top: 5rem;
 }
 
 #menu::before {
@@ -167,4 +168,13 @@ section h3 {
     border-top-right-radius: 8px;
     border-top-left-radius: 8px;
     
+}
+/* dark mode  */
+#mode {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 3rem;
+    cursor: pointer;
+    font-size: 1.5rem;
 }
