@@ -104,6 +104,36 @@ nav li {
  
 } */
 
+/* hero image edits */
+.hero {
+    margin: 10px auto;
+    position: relative;
+    border: 1px solid rgba(0,0,0,.1);
+    height: auto;
+}
+.hero img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.hero-name {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    background: radial-gradient(#fff, #a9dbde);
+    border: 1px solid rgba(75, 149, 233, 0.75);
+    padding: 1.5rem;
+    box-shadow: 0 0 3rem #fff;
+    opacity: 0.75;
+}
+.hero-name p {
+    margin: 0;
+    padding: .25rem;
+    font-weight: 700;
+    font-size: 2rem;
+    font-family: Forum, Halvetica, sans-serif;
+}
+
 /* This where to edit the image at the header and the header */
 #self {
     width: 10%;
