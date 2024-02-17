@@ -18,17 +18,52 @@ p {
 nav {
     font-family: Playfair Display, Halvetica, sans-serif;
 }
-.hero-image {
+
+/* here will be the edits for the hero and call to action */
+.hero {
+    /* margin: 10px auto; */
+    position: relative;
+    /* border: 1px solid rgba(0,0,0,.1); */
+    /* height: auto; */
+}
+
+.hero img {
     width: 100%;
     height: auto;
 }
-.call-to-action{
+
+.heroaction {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    /* background: radial-gradient(#E6B800, #807033); */
+    background: #4C462E;
+    /* border: 1px solid rgba(255, 255, 255, 0.75); */
+    padding: 1.5rem;
+    /* box-shadow: 0 0 3rem #4C462E; */
+    opacity: .80;
+    border-radius: 10px;
+}
+
+.heroaction a {
+    margin: 0;
+    padding: .25rem;
+    font-weight: 700;
+    font-size: 1rem;
+    font-family: Forum, Halvetica, sans-serif;
+    color: #E6B800;
+}
+/* .hero-image {
+    width: 100%;
+    height: auto;
+} */
+/* .call-to-action {
     margin: 0.5rem;
     border: 1px solid #807033;
     background-color: #4C462E;
     border-radius: 8px;
     color: #E6B800;
-}
+} */
 
 #menu {
     font-size: 1.5rem;
@@ -89,6 +124,7 @@ nav li {
 /* This where to edit the image at the header and the header */
 
 header {
+    height: 150px;
     background-color: #4C462E;
     display: flex;
     align-items: center;
@@ -97,8 +133,9 @@ header {
     flex-direction: column; /* this is been use to stack h1 and h2 */
 }
 /* this is to adjust the headers for <h> for now */
-header h1 h2 {
+header h1 {
     margin: 0;
+    text-align: center;
 }
 header h1{
     margin-bottom:  1px;

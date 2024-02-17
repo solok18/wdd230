@@ -5,7 +5,7 @@
     main section:nth-child(4) {
 		grid-column: span 3;
 	}
-    .hero-image{
+    .hero{
         grid-column: 1/4;
     }
 	.call-to-action{

@@ -7,10 +7,10 @@
 		display: block;
 	}
 
-	main section:nth-child(3) {
+	main section:nth-child(2) {
 		grid-column: span 2;
 	}
-    .hero-image{
+    .hero{
         grid-column: 1/3;
     }
 	.call-to-action{

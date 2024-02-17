@@ -20,7 +20,7 @@
 </head>
 <body>
     <header>
-        <h1>Sacramento Chamber of Commerce</h1>
+        <h1>Sacramento <br/> of Commerce</h1>
         <!-- <h2>Chamber of Commerce</h2> -->
     </header>
     <button id="menu" title="Menu"></button>
@@ -36,8 +36,17 @@
         🌙
     </div>
     <main>
-        <img class="hero-image" src="images/hero-image.webp" alt="sacramento">
-        <a class="call-to-action" href="">Join the Sacramento Chamber of Commerce</a>
+        <div class="hero">
+            <picture>
+                <source srcset="images/hero-image-small.webp" media="(max-width: 500px)">
+                <source srcset="images/hero-image-medium.webp" media="(max-width: 1000px)">
+                <img class="hero-image" src="images/hero-image-large.webp" alt="sacramento" width="1500" height="750">
+            </picture>
+            <div class="heroaction">
+                <a  href="">Join the Sacramento Chamber of Commerce</a>
+            </div>
+        </div>
+        <!-- <a class="call-to-action" href="">Join the Sacramento Chamber of Commerce</a> -->
         <section class="current-events">
             <h2>Events</h2>
             <hr>
@@ -46,7 +55,12 @@
         <section class="Wather-card">
             <h2>Weather</h2>
             <hr>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora corrupti amet veniam molestiae.</p>
+            <div class="temp">50°F</div>
+            <img src="" alt="">
+            <div class="description">Cloudy</div>
+            <div class="humidity">Humidity: 40%</div>
+            <div class="windSpeed">Wind Speed: 3.0mph</div>
+            <div> Wind Chill: <span id="windChill"></span>&deg;F</div>
         </section>
         <section class="spotlights">
             <h2>Company</h2>
@@ -63,5 +77,6 @@
     <script src="scripts/getdates.js"></script>
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/darkmode.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 </html>
