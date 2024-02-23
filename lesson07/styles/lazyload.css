@@ -1,0 +1,37 @@
+h1 {
+    text-align: center;
+    background-color: #a9dbde;
+    font-family: Forum, Halvetica, sans-serif;
+    margin: 20;
+}
+main {
+    margin: 0 auto;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 100%;
+    background: #000000;
+    animation: fade 10s;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+footer {
+    margin: auto;
+    background-color: #a9dbde;
+    text-align: center;
+    color: #000000;
+    padding: 10px;
+    
+    
+}
