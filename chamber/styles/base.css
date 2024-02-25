@@ -216,3 +216,16 @@ section h3 {
     font-size: 1.5rem;
     color: #ffffff;
 }
+
+/* On here we will edit the discover page for the chmaber page  */
+
+.content {
+    grid-column: 1/2;
+    
+}
+.photos {
+    
+    grid-column: 1/2;
+   
+}
+.photos:hover {box-shadow: 0 0 50px #333;}

@@ -18,7 +18,7 @@
     <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/5/5a/Sacramento%2C-California---State-Capitol.jpg">
     <meta property="og:url" content="https://solok18.github.io/wdd230/chamber/">
 </head>
-<body>
+<body class="deicovery">
     <header>
         <h1>Sacramento <br/> Chamber of Commerce</h1>
         <!-- <h2>Chamber of Commerce</h2> -->
@@ -26,7 +26,7 @@
     <button id="menu" title="Menu"></button>
     <nav class="navigation">
         <ul>
-            <li><a href="#">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="discover.html">Discover</a></li>
             <li><a href="">Directory</a></li>
             <li><a href="">Join</a></li>
@@ -35,38 +35,31 @@
     <div id="mode">
         🌙
     </div>
-    <main>
-        <div class="hero">
-            <picture>
-                <source srcset="images/hero-image-small.webp" media="(max-width: 500px)">
-                <source srcset="images/hero-image-medium.webp" media="(max-width: 1000px)">
-                <img class="hero-image" src="images/hero-image-large.webp" alt="sacramento" width="1500" height="750">
-            </picture>
-            <div class="heroaction">
-                <a  href="">Join the Sacramento Chamber of Commerce</a>
-            </div>
-        </div>
-        <!-- <a class="call-to-action" href="">Join the Sacramento Chamber of Commerce</a> -->
-        <section class="current-events">
-            <h2>Events</h2>
-            <hr>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus saepe reiciendis ut, porro ab accusantium?</p>
+    <main class="sidebar">
+        <section class="content">
+            <p><Span class="timeCount">Number of Visits: </Span><span class="countvisits"></span></p>
         </section>
-        <section class="Wather-card">
-            <h2>Weather</h2>
-            <hr>
-            <div class="temp">50°F</div>
-            <!-- <img src="" alt=""> -->
-            <div class="description">Cloudy</div>
-            <div class="humidity">Humidity: 40%</div>
-            <div class="windSpeed">Wind Speed: 3.0mph</div>
-            <div> Wind Chill: <span id="windChill"></span>&deg;F</div>
-        </section>
-        <section class="spotlights">
-            <h2>Company</h2>
-            <hr>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat non debitis aliquam, quae autem earum.</p>
-        </section>
+        
+        
+        <picture class="photos">
+            <img src="images/img1.webp" alt="placeholder bear" loading="lazy" width="600" height="400">
+        </picture>
+        <picture class="photos">
+            <img src="images/img2.webp" alt="placeholder bear" loading="lazy" width="600" height="400">
+        </picture>
+        <picture class="photos">
+            <img src="images/img3.webp" alt="placeholder bear" loading="lazy" width="600" height="400">
+        </picture>
+        <picture class="photos">
+            <img src="images/img4.webp" alt="placeholder bear" loading="lazy" width="600" height="400">
+        </picture>
+        <picture class="photos">
+            <img src="images/img5.webp" alt="placeholder bear" loading="lazy" width="600" height="400">
+        </picture>
+        <picture class="photos">
+            <img src="images/img6.webp" alt="placeholder bear" loading="lazy" width="600" height="400">
+        </picture>
+
     </main>
     <footer>
         <p>
@@ -78,5 +71,6 @@
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/darkmode.js"></script>
     <script src="scripts/windchill.js"></script>
+    <script src="scripts/visitcount.js"></script>
 </body>
 </html>
