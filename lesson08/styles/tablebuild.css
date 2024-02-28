@@ -1,0 +1,45 @@
+html {
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid #e6e6e6;
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+}
+
+
+.empty {
+    background-color: #000000;
+}
+th {
+    background-color: rgb(56, 56, 56);
+    color: #ffffff;
+    font-size: large;
+    font-weight: bold;
+    border: 1px solid #080808;
+    padding: 10px 20px;
+}
+td {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 1px solid #b4b4b4;
+    padding: 10px 20px;
+}
+
+caption {
+    padding: 10px;
+    caption-side: bottom;
+}
+tr:first-child th {
+    background-color: #000000;
+}
+
+tr:nth-child(even) td {
+    background-color: rgb(212, 211, 211)
+}
+tr:nth-child(odd) td {
+    background-color: rgb(250, 248, 248);
+}
