@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sacramento Chamber of Commerce</title>
+    <meta 
+        name="description"
+        content="The Sacramento Chamber of Commerece home page is here to give detail on how the chmaber helps local busnisess and the community">
+    <meta name="author" content="Kevin Solorzano">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon.ico">
+    <meta property="og:title" content="Sacramento Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/5/5a/Sacramento%2C-California---State-Capitol.jpg">
+    <meta property="og:url" content="https://solok18.github.io/wdd230/chamber/">
+</head>
+<body>
+    <header>
+        <h1>Sacramento <br/> Chamber of Commerce</h1>
+        <!-- <h2>Chamber of Commerce</h2> -->
+    </header>
+    <button id="menu" title="Menu"></button>
+    <nav class="navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="">Directory</a></li>
+            <li><a href="">Join</a></li>
+        </ul>
+    </nav>
+    <div id="mode">
+        🌙
+    </div>
+    <main class="form">
+        <form method="get" action="thanyou.html" class="cwf1">
+            <fieldset>
+                <legend>Applicant Information</legend>
+                <label>First Name*<input type="text" name="fname" id="fname" required></label>
+                <label>Last Name*<input type="text" name="lname" id="lname" required></label>
+                <label>Title*<input type="text" name="title" id="title" required pattern="[A-Za-z\d]{8,}$"></label> <!-- come back to this to edit pattern -->
+                <label>Email*<input type="email" name="email" id="email" placeholder="someone@gmail.com" required></label>
+                <label>Phone*<input type="tel" name="phone" id="phone" placeholder="1235551234" required></label>
+                <label>Business/Organization*<input type="text" name="organization" id="organization" required></label>
+            <fieldset>
+                <legend>Membership</legend>
+                <label><input type="radio" name="member" value="np"> Non Profite Membership</label>
+                <label><input type="radio" name="member" value="bronze"> Bronze Membership</label>
+                <label><input type="radio" name="member" value="siver"> Silver Membership</label>
+                <label><input type="radio" name="member" value="Gold"> Gold Membership</label>
+            </fieldset>
+                <div>Business/Organization Description</div>
+                <textarea name="description" id="description" cols="40" rows="10"></textarea>
+                <label ><input type="hidden" name="dt" id="dt"></label>
+
+            </fieldset>
+            <input type="submit" value="Join our Community">
+
+        </form>
+
+        <section  class="membership">
+            <h3>NP Membership</h3>
+            <ul>
+                <li>Non-Profit Networking: Opportunities to connect with other non-profit organizations and potential donors or partners.</li>
+                <li>Grant and Funding Alerts: Regular updates on grant opportunities, funding sources, and resources available for non-profit organizations.</li>
+                <li>Capacity Building Workshops: Access to workshops and training sessions specifically tailored to the needs of non-profit organizations, covering topics such as fundraising, volunteer management, and board development.</li>
+                <li>Collaboration Opportunities: Facilitation of partnerships and collaborations with other non-profits and businesses to maximize impact and efficiency.</li>
+                <li>Advocacy Support: Assistance with advocacy efforts and representation of non-profit interests in relevant policy discussions and decision-making processes.</li>
+            </ul>
+        </section>
+        <section  class="membership">
+            <h3>Gold Membership</h3>
+            <ul>
+                <li>VIP Access: Exclusive invitations to VIP events, dinners, and receptions with prominent business leaders, politicians, and influencers.</li>
+                <li>Executive Roundtables: Participation in exclusive executive roundtable discussions focused on industry trends and strategic insights.</li>
+                <li>Legislative Advocacy: Representation and advocacy on behalf of your business interests at the local, regional, and national levels.</li>
+                <li>Premium Exposure: Priority placement in the Chamber's marketing materials, including logo placement and sponsor recognition.</li>
+                <li>Tailored Support: Customized support from Chamber staff to address your specific business needs and challenges.</li>
+            </ul>
+        </section>
+        <section class="membership">
+            <h3>Silver Membership</h3>
+            <ul>
+                <li>Enhanced Networking Opportunities: Priority access to premium networking events and exclusive meetups with key industry players.</li>
+                <li>Marketing Support: Promotion of your business through the Chamber's social media channels, website, and newsletters.</li>
+                <li>Member Spotlight: Opportunity to be featured in the Chamber's communications, showcasing your business to a wider audience.</li>
+                <li>Advisory Services: Access to advisory services such as business mentoring and consulting to help address specific challenges or opportunities.</li>
+                <li>Additional Discounts: Additional discounts on Chamber services, events, and partner offerings.</li>
+            </ul>
+        </section>
+        <section class="membership">
+            <h3>Bronze Membership</h3>
+            <ul>
+                <li>Networking Events: Access to regular networking events where you can meet fellow members and potential business partners.</li>
+                <li>Member Directory: Inclusion in the Chamber's member directory, allowing other businesses and individuals to find and connect with you.</li>
+                <li>Workshops and Seminars: Discounted or free entry to educational workshops and seminars on topics relevant to business growth and development.</li>
+                <li>Newsletter Subscription: Receive a subscription to the Chamber's newsletter, keeping you informed about industry news, events, and opportunities.</li>
+                <li>Access to Resources: Access to a variety of resources such as business templates, guides, and toolkits to assist with various aspects of running your business.</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>
+            &copy; 2024 | Kevin Solorzano | WDD 230 Project | ksol862@yahoo.com
+        </p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/darkmode.js"></script>
+    <script src="scripts/windchill.js"></script>
+</body>
+</html>

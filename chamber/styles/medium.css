@@ -1,13 +1,13 @@
 @media only screen and (min-width: 37.5em) {
-	main {
+	.home {
 		grid-template-columns: 1fr 1fr;
 	}
 
-	main section:nth-child(2) {
+	.home section:nth-child(2) {
 		display: block;
 	}
 
-	main section:nth-child(2) {
+	.home section:nth-child(2) {
 		grid-column: span 2;
 	}
     .hero{
@@ -52,4 +52,21 @@
 		
 		grid-column: 2/3;
 	}
+
+	/* -----------FORM PAGE EDITS---------- */
+	.form {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: auto;
+		gap: 10px;
+	}
+
+	.cwf1 {
+		grid-row:1/5 ;
+	}
+	.membership {
+		background-color: #E6B800;
+		grid-column: 2/3;
+	}
+	
 }
