@@ -165,13 +165,13 @@ main hr {
     border-color: #807033;
     grid-column: 1/-1;
   }
-main ul {
+.home ul {
     list-style: none;
 }
 main li {
     text-align: left;
 }
-main li a{
+main  li a{
     text-decoration: none;
 }
 
@@ -241,8 +241,9 @@ section h3 {
     grid-row:1/5 ;
 }
 .membership {
-    background-color: #E6B800;
+    /* background-color: #E6B800; */
     grid-column: 1/2;
+    
 }
 .cwf1 fieldset {
     margin: 2rem 0;
@@ -304,8 +305,8 @@ section h3 {
 .cwf1 input[type="submit"]
 {
     border: none;
-    background-image: linear-gradient(#0bc6cc, #72b1fa) ;
-    color: #fff;
+    background-image: linear-gradient(#807033, #E6B800) ;
+    color: #ffffff;
     border-radius: 6px;
     padding: .8rem;
     width: 96%;
@@ -358,4 +359,15 @@ section h3 {
     }
     
     
+}
+
+#gold {
+    background-color: gold;
+}
+#silver {
+    background-color: silver;
+}
+#bronze {
+    background-color: #CD7F32;
+    color: #ffffff;
 }
