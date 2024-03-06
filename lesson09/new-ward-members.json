@@ -1,0 +1,34 @@
+{   "wardinfo": {
+    "familyName" : "Castillo",
+    "movedDate" : "2023-01-02",
+    "numberOfMembers" : 5,
+    "visitByBishopric" : true,
+    "individualMember" : [
+        {
+            "name" : "Jose Castillo",
+            "gender" : "Male",
+            "birthDay" : "1966-04-07"
+        },
+        {
+            "name" : "Juan Castillo",
+            "gender" : "Male",
+            "birthDay" : "1988-06-12"
+        },
+        {
+            "name" : "Marisol Castillo",
+            "gender" : "Female",
+            "birthDay" : "1968-08-20"
+        },
+        {
+            "name" : "Alexandra Castillo",
+            "gender" : "Female",
+            "birthDay" : "1993-01-09"
+        },
+        {
+            "name" : "Arturito Castillo",
+            "gender" : "Male",
+            "birthDay" : "2000-09-07"
+        }
+    ]
+    }
+}
