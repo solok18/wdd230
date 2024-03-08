@@ -4,8 +4,8 @@
             "lesson" : "01",
             "links" : [
                 {
-                "url" : "lesson01/holygrail.html",
-                "title" : "Holy Layout" 
+                    "url" : "lesson01/holygrail.html",
+                    "title" : "Holy Layout" 
                 }
             ]
         },
@@ -14,12 +14,12 @@
             "lesson" : "02",
             "links" : [
                 {
-                "url" : "lesson02/media-query.html",
-                "title" : "Holy Layout" 
+                    "url" : "lesson02/media-query.html",
+                    "title" : "Media Query" 
                 },
                 {
-                "url" : "lesson02/design-principles.html",
-                "title" : "Design Principles" 
+                    "url" : "lesson02/design-principles.html",
+                    "title" : "Design Principles" 
                 }
             ]
         },
@@ -28,16 +28,16 @@
             "lesson" : "03",
             "links" : [
                 {
-                "url" : "lesson03/images/css-combinators.png",
-                "title" : "CSS Combinators" 
+                    "url" : "lesson03/images/css-combinators.png",
+                    "title" : "CSS Combinators" 
                 },
                 {
-                "url" : "https://codepen.io/solok18/pen/VwRzJjV",
-                "title" : "CSS Psuedo Elements" 
+                    "url" : "https://codepen.io/solok18/pen/VwRzJjV",
+                    "title" : "CSS Psuedo Elements" 
                 },
                 {
-                "url" : "https://codepen.io/solok18/pen/YzgrEEB",
-                "title" : "Responsive 'Hamburger' Menu" 
+                    "url" : "https://codepen.io/solok18/pen/YzgrEEB",
+                    "title" : "Responsive 'Hamburger' Menu" 
                 }
             ]
         },
@@ -46,8 +46,8 @@
             "lesson" : "04",
             "links" : [
                 {
-                "url" : "https://codepen.io/solok18/pen/eYXVrOd",
-                "title" : "CSS Pseudo-Classes" 
+                    "url" : "https://codepen.io/solok18/pen/eYXVrOd",
+                    "title" : "CSS Pseudo-Classes" 
                 }
             ]
         },
@@ -56,8 +56,8 @@
             "lesson" : "05",
             "links" : [
                 {
-                "url" : "lesson05/bom.html",
-                "title" : "Book of Mormon Favorite" 
+                    "url" : "lesson05/bom.html",
+                    "title" : "Book of Mormon Favorite" 
                 }
             ]
         },
@@ -66,12 +66,12 @@
             "lesson" : "06",
             "links" : [
                 {
-                "url" : "lesson06/images/landscape.webp",
-                "title" : "WebP" 
+                    "url" : "lesson06/images/landscape.webp",
+                    "title" : "WebP" 
                 },
                 {
-                "url" : "lesson06/responsive-images.html",
-                "title" : "Responsive Images" 
+                    "url" : "lesson06/responsive-images.html",
+                    "title" : "Responsive Images" 
                 }
             ]
         },
@@ -80,12 +80,12 @@
             "lesson" : "07",
             "links" : [
                 {
-                "url" : "lesson07/lazyload.html",
-                "title" : "Lazy Loading" 
+                    "url" : "lesson07/lazyload.html",
+                    "title" : "Lazy Loading" 
                 },
                 {
-                "url" : "lesson07/bom.html",
-                "title" : "Local Storage" 
+                    "url" : "lesson07/bom.html",
+                    "title" : "Local Storage" 
                 }
             ]
         },
@@ -94,12 +94,12 @@
             "lesson" : "08",
             "links" : [
                 {
-                "url" : "lesson08/tablebuild.html",
-                "title" : "Table Build" 
+                    "url" : "lesson08/tablebuild.html",
+                    "title" : "Table Build" 
                 },
                 {
-                "url" : "lesson08/Form-start/index.html",
-                "title" : "Form Start" 
+                    "url" : "lesson08/Form-start/index.html",
+                    "title" : "Form Start" 
                 }
             ]
         },
@@ -108,12 +108,12 @@
             "lesson" : "09",
             "links" : [
                 {
-                "url" : "lesson09/new-ward-members.json",
-                "title" : "JSON" 
+                    "url" : "lesson09/new-ward-members.json",
+                    "title" : "JSON" 
                 },
                 {
-                "url" : "lesson09/prophets.html",
-                "title" : "Latter-day Prophets" 
+                    "url" : "lesson09/prophets.html",
+                    "title" : "Latter-day Prophets" 
                 }
             ]
         },
@@ -122,16 +122,16 @@
             "lesson" : "10",
             "links" : [
                 {
-                "url" : "",
-                "title" : "" 
+                    "url" : "",
+                    "title" : "" 
                 },
                 {
-                "url" : "",
-                "title" : "" 
+                    "url" : "",
+                    "title" : "" 
                 },
                 {
-                "url" : "",
-                "title" : "" 
+                    "url" : "",
+                    "title" : "" 
                 }
             ]
         }
