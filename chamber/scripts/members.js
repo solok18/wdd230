@@ -25,6 +25,7 @@ const displayProphets = (members) => {
         phoneNumber.textContent = `${member.phonenumber}`;
         
         website.setAttribute('href', member.websitesurl);
+        website.target = "_blank";
         website.textContent = "Smud.org";
 
         portrait.setAttribute('src', member.imageurl);

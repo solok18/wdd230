@@ -370,3 +370,45 @@ section h3 {
 #bronze {
     background-color: #CD7F32; 
 }
+
+/*------------------------ Directory page edits ----------------------*/
+
+.directory {
+    margin: 0 auto;
+    padding: 0.5rem;
+    /* max-width: 1000px; */
+    background-color: #fff;
+    font-family: Playfair Display, Halvetica, sans-serif;
+}
+
+.directory section {
+    border: 1px solid #E6B800;
+    padding: 0.5rem;
+    background-color: #4c462ee5;
+    color: #fff;
+}
+
+#members {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    /* grid-gap: 5px; */
+    align-items: center;
+}
+
+#members img{
+    border: 1px solid #fff;
+    box-shadow: 0 0 10px #fff;
+    background-color: #fff;
+    height: 200px;
+}
+#members a {
+    font-family: Playfair Display, Halvetica, sans-serif;
+    font-size: 0.85rem;
+    color: #E6B800;
+    letter-spacing: 1.1pt;
+}
+
+#members section > * {
+    margin: 0.1rem;
+}
+

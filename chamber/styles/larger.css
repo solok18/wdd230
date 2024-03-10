@@ -53,6 +53,21 @@
 		grid-column: 2/3;
 	}
 
+	/*------------------------ Directory page edits ----------------------*/
+
+	.directory {
+		/* margin: 0 auto;
+		padding: 0.5rem;
+		max-width: 700px;
+		background-color: #fff;
+		font-family: Playfair Display, Halvetica, sans-serif; */
+
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+		grid-gap: 5px;
+		align-items: center;
+	}
+
 
 
 
