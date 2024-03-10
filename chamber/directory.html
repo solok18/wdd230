@@ -35,38 +35,10 @@
     <div id="mode">
         🌙
     </div>
-    <main class="home">
-        <div class="hero">
-            <picture>
-                <source srcset="images/hero-image-small.webp" media="(max-width: 500px)">
-                <source srcset="images/hero-image-medium.webp" media="(max-width: 1000px)">
-                <img class="hero-image" src="images/hero-image-large.webp" alt="sacramento" width="1500" height="750">
-            </picture>
-            <div class="heroaction">
-                <a  href="join.html">Join the Sacramento Chamber of Commerce</a>
-            </div>
-        </div>
-        <!-- <a class="call-to-action" href="">Join the Sacramento Chamber of Commerce</a> -->
-        <section class="current-events">
-            <h2>Events</h2>
-            <hr>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus saepe reiciendis ut, porro ab accusantium?</p>
-        </section>
-        <section class="Wather-card">
-            <h2>Weather</h2>
-            <hr>
-            <div class="temp">50°F</div>
-            <!-- <img src="" alt=""> -->
-            <div class="description">Cloudy</div>
-            <div class="humidity">Humidity: 40%</div>
-            <div class="windSpeed">Wind Speed: 3.0mph</div>
-            <div> Wind Chill: <span id="windChill"></span>&deg;F</div>
-        </section>
-        <section class="spotlights">
-            <h2>Company</h2>
-            <hr>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat non debitis aliquam, quae autem earum.</p>
-        </section>
+    <main class="directory">
+        <button id="grid">⏹️Grid</button>
+        <button id="list">📄List</button>
+        <div id="members"></div>
     </main>
     <footer>
         <p>
@@ -78,5 +50,7 @@
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/darkmode.js"></script>
     <script src="scripts/windchill.js"></script>
+    <script src="scripts/members.js"></script>
+    <script src="scripts/gridlistbutton.js"></script>
 </body>
 </html>
