@@ -17,19 +17,22 @@ const displayProphets = (members) => {
         let card = document.createElement('section');
         let address = document.createElement('h3');
         let phoneNumber = document.createElement('h3');
+        let membership = document.createElement('h3');
         let website = document.createElement('a');
         let portrait = document.createElement('img');
 
         
         address.textContent = `${member.addresses}`;
         phoneNumber.textContent = `${member.phonenumber}`;
+        membership.textContent = `${member.membershiplevel}`;
+
         
         website.setAttribute('href', member.websitesurl);
         website.target = "_blank";
         website.textContent = "Smud.org";
 
         portrait.setAttribute('src', member.imageurl);
-        portrait.setAttribute('alt', `Portriat of ${member.name} ${member.lastname}`);
+        portrait.setAttribute('alt', `Logo of ${member.name}`);
         portrait.setAttribute('loading', 'lazy');
         portrait.setAttribute('width', '340');
         portrait.setAttribute('height', '440');
@@ -37,6 +40,7 @@ const displayProphets = (members) => {
         card.appendChild(portrait);
         card.appendChild(address);
         card.appendChild(phoneNumber);
+        card.appendChild(membership);
         card.appendChild(website);
         // card.appendChild(portrait);
         
