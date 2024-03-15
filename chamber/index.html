@@ -19,6 +19,16 @@
     <meta property="og:url" content="https://solok18.github.io/wdd230/chamber/">
 </head>
 <body>
+    <div class="banner">
+        <div class="banner-content">
+            <div class="banner-text">
+                <strong>Reminder:</strong> Join us for the Sacramento Chamber of Commerce meet and greet on Wednesday at 7:00 p.m.
+            </div>
+            <button class="banner-exit" type="button">
+                ❌
+            </button>
+        </div>
+    </div>
     <header>
         <h1>Sacramento <br/> Chamber of Commerce</h1>
         <!-- <h2>Chamber of Commerce</h2> -->
@@ -32,9 +42,9 @@
             <li><a href="">Join</a></li>
         </ul>
     </nav>
-    <div id="mode">
+    <button id="mode">
         🌙
-    </div>
+    </button>
     <main class="home">
         <div class="hero">
             <picture>
@@ -55,10 +65,10 @@
         <section class="Wather-card">
             <h2>Weather</h2>
             <hr>
-            <div class="temp">50°F</div>
-            <!-- <img src="" alt=""> -->
-            <div class="description">Cloudy</div>
-            <div class="humidity">Humidity: 40%</div>
+            <img id="weather-icon" src="" alt="">
+            <p class="weather-place"><span id="current-temp"></span> Sacramento, California</p>
+            <figcaption id="weather-type"></figcaption>
+        
             <div class="windSpeed">Wind Speed: 3.0mph</div>
             <div> Wind Chill: <span id="windChill"></span>&deg;F</div>
         </section>
@@ -78,5 +88,7 @@
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/darkmode.js"></script>
     <script src="scripts/windchill.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/bannerbutton.js"></script>
 </body>
 </html>

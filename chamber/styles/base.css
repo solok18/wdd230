@@ -209,12 +209,15 @@ section h3 {
 /* dark mode  */
 #mode {
     position: absolute;
+    /* z-index: 10; */
     top: 1rem;
     right: 1rem;
     font-size: 3rem;
     cursor: pointer;
     font-size: 1.5rem;
     color: #ffffff;
+    background: none;
+    border: none;
 }
 
 /* On here we will edit the discover page for the chmaber page  */
@@ -412,3 +415,29 @@ section h3 {
     margin: 0.1rem;
 }
 
+/*------------------ banner style  ------------------*/
+.banner {
+    background: #E6B800;
+}
+.banner-content {
+    padding: 16px;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.banner-text {
+    flex-grow: 1;
+    line-height: 1.4;
+    font-family: Forum, Halvetica, sans-serif;;
+}
+
+.banner-exit {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.banner-text, .banner-exit, button {
+    color: #ffffff;
+}
