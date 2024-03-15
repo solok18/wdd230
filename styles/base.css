@@ -214,3 +214,46 @@ iframe {
     
     width: 100%;
 }
+
+
+/*----------------------- information style  --------------------*/
+#weather-type {
+    font-family:Playfair Display, Halvetica, sans-serif;
+    font-size: 1.25rem;
+}
+
+#current-temp {
+    font-family:Playfair Display, Halvetica, sans-serif;
+    font-size: 1.25rem;
+}
+
+.weather-place {
+    font-family:Playfair Display, Halvetica, sans-serif;
+    font-size: 1.25rem;
+}
+
+/*----------------------- learning activity style ----------------------*/
+#cards {
+    font-family:Playfair Display, Halvetica, sans-serif;
+    text-align: left;
+    display: flex; 
+    flex-direction: column;
+}
+ #cards h3 {
+    text-align: center;
+ }
+ 
+ #cards h4 {
+    font-size: 1.25rem;
+    margin-left: 20px;
+    
+ }
+
+ #cards ul {
+    margin: 0;
+    display: flex;
+    
+ }
+ #cards li {
+    margin-left: 20px;
+ }
