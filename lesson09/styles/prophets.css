@@ -10,6 +10,10 @@ footer {
     margin: 1rem;
     position: relative;
 }
+div {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
 
 h1 {
     color: #272f97;
@@ -46,6 +50,7 @@ img {
 	max-width: 325px;
     box-shadow: 0 0 30px #414141;
     height: 300px;
+    margin-bottom: 10px;
     
 }
 
