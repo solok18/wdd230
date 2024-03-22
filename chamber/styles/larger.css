@@ -39,9 +39,17 @@
 		flex: 1 1 100%;
 	}
 	/* for the discover page */
-	.photos {
+	/* .photos {
 		
 		grid-column: 2/3;
+	} */
+	.places {
+		grid-column: 2/3;
+		grid-row: 1/5;
+	}
+	.content {
+		grid-column: 1/2;
+		
 	}
 
  /* -----------FORM PAGE EDITS---------- */

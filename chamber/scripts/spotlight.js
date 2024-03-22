@@ -6,7 +6,7 @@ async function getMemberData() {
     const response = await fetch(urlspotlight);
     const data = await response.json();
     // console.table(data.spotlights);
-    displayMembers(data.spotlights);
+    displayMembers(data.spotlights.slice(0, 3));
 
 }
 
