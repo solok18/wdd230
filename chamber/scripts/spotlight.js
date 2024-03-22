@@ -1,19 +1,19 @@
-const url = 'https://raw.githubusercontent.com/solok18/wdd230/main/chamber/data/members.json';
+const urlspotlight = 'https://raw.githubusercontent.com/solok18/wdd230/main/chamber/data/spotlights.json';
 
-const cards = document.querySelector('#members');
+const cards = document.querySelector('#spotlights');
 
 async function getMemberData() {
-    const response = await fetch(url);
+    const response = await fetch(urlspotlight);
     const data = await response.json();
-    // console.table(data.prophets);
-    displayMembers(data.members);
+    // console.table(data.spotlights);
+    displayMembers(data.spotlights);
 
 }
 
 getMemberData();
 
-const displayMembers = (members) => {
-    members.forEach((member) => {
+const displayMembers = (spotlights) => {
+    spotlights.forEach((spotlight) => {
         let card = document.createElement('section');
         let address = document.createElement('p');
         let phoneNumber = document.createElement('p');
@@ -22,17 +22,17 @@ const displayMembers = (members) => {
         let portrait = document.createElement('img');
 
         
-        address.textContent = `${member.addresses}`;
-        phoneNumber.textContent = `${member.phonenumber}`;
-        membership.textContent = `${member.membershiplevel}`;
+        address.textContent = `${spotlight.addresses}`;
+        phoneNumber.textContent = `${spotlight.phonenumber}`;
+        membership.textContent = `${spotlight.membershiplevel}`;
 
         
-        website.setAttribute('href', member.websitesurl);
+        website.setAttribute('href', spotlight.websitesurl);
         website.target = "_blank";
-        website.textContent = member.name;
+        website.textContent = spotlight.name;
 
-        portrait.setAttribute('src', member.imageurl);
-        portrait.setAttribute('alt', `Logo of ${member.name}`);
+        portrait.setAttribute('src', spotlight.imageurl);
+        portrait.setAttribute('alt', `Logo of ${spotlight.name}`);
         portrait.setAttribute('loading', 'lazy');
         portrait.setAttribute('width', '340');
         portrait.setAttribute('height', '440');
