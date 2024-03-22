@@ -5,7 +5,7 @@
             "addresses" : "6301 S St, Sacramento, CA 95817",
             "phonenumber" : "(888) 742-7683",
             "websitesurl" : "https://www.smud.org/",
-            "imageurl" : "https://www.smud.org/images/smudLogo.svg",
+            "imageurl" : "images/smud.png",
             "membershiplevel" : "Gold"
         },
         {
@@ -13,7 +13,7 @@
             "addresses" : "2110 X St, Sacramento, CA 95818",
             "phonenumber" : "(916) 451-2337",
             "websitesurl" : "https://sacramentohoneycompany.com/",
-            "imageurl" : "https://img1.wsimg.com/isteam/ip/4543d158-1134-420b-a6eb-af2dfe73372a/logo_white_background.jpg/:/rs=w:455,h:170,cg:true,m/cr=w:455,h:170/qt=q:95",
+            "imageurl" : "images/sacramentohoneycompany.jpeg",
             "membershiplevel" : "Silver"
         },
         {
@@ -21,7 +21,7 @@
             "addresses" : "1125 11th St, Sacramento, CA 95814",
             "phonenumber" : "(916) 389-7828",
             "websitesurl" : "https://allspicery.com/",
-            "imageurl" : "https://allspicery.com/cdn/shop/files/Allspicery_logo.png?v=1691532825&width=300",
+            "imageurl" : "images/allspicery.png",
             "membershiplevel" : "Gold"
         },
         {
@@ -29,7 +29,7 @@
             "addresses" : "8231 Alpine Ave #3, Sacramento, CA 95826",
             "phonenumber" : "(916) 455-1880",
             "websitesurl" : "https://rebuildingtogethersacramento.org/",
-            "imageurl" : "https://proxy.rebuildingtogether.org/sites/default/files/minisites/logos/Copy%20of%20Sacramento%20jpeg%20logo%20%281%29.jpg",
+            "imageurl" : "images/rebuildtogether.png",
             "membershiplevel" : "Non Profit"
         },
         {
@@ -37,7 +37,7 @@
             "addresses" : "2598 21st Street, Sacramento, CA 95818",
             "phonenumber" : "(916) 942-9720",
             "websitesurl" : "https://www.publiclandstore.com/",
-            "imageurl" : "https://www.publiclandstore.com/cdn/shop/files/public_land_store_logo.jpg?v=1701814934",
+            "imageurl" : "images/publicland.jpg",
             "membershiplevel" : "Bronze"
         },
         {
@@ -45,7 +45,7 @@
             "addresses" : "2555 49th St, Sacramento, CA 95817",
             "phonenumber" : "(916) 734-4230",
             "websitesurl" : "http://www.rmhcnc.org/",
-            "imageurl" : "https://rmhcnc.org/wp-content/uploads/RMHCNC_logo_hz-blue_txt.jpg",
+            "imageurl" : "images/ronaldmcdonald.png",
             "membershiplevel" : "Non Profit"
         },
         {
@@ -53,7 +53,7 @@
             "addresses" : "102 K STREET SACRAMENTO, CA 95814",
             "phonenumber" : "916-447-3623",
             "websitesurl" : "https://www.stagenine.com/",
-            "imageurl" : "https://www.stagenine.com/cdn/shop/files/Stage_Nine_Web_Logo-01.png?v=1685120137&width=500",
+            "imageurl" : "images/stagenine.png",
             "membershiplevel" : "Gold"
         }
         

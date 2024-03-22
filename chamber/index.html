@@ -39,12 +39,14 @@
             <li><a href="#">Home</a></li>
             <li><a href="discover.html">Discover</a></li>
             <li><a href="directory.html">Directory</a></li>
-            <li><a href="">Join</a></li>
+            <li><a href="join.html">Join</a></li>
         </ul>
     </nav>
-    <button id="mode">
-        🌙
-    </button>
+    <div class="light-dark">
+        <button id="mode">
+            🌙
+        </button>
+    </div>
     <main class="home">
         <div class="hero">
             <picture>
@@ -60,20 +62,24 @@
         <section class="current-events">
             <h2>Events</h2>
             <hr>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus saepe reiciendis ut, porro ab accusantium?</p>
+            <h3>Upcoming Sacramento Chamber of Commerce Gala: Embracing Innovation and Collaboration</h3>
+            <p>Get ready for an unforgettable evening at the upcoming Sacramento Chamber of Commerce Gala, where we'll celebrate innovation, collaboration, and the thriving business community of Sacramento. Join us for an opportunity to network with industry leaders, government officials, and fellow entrepreneurs while enjoying exquisite dining and live entertainment. Keynote speakers will share insights on leveraging innovation for economic growth, and awards will honor outstanding contributors to our city's prosperity. Don't miss this chance to be inspired and connect with the driving forces behind Sacramento's success. Mark your calendars and join us for a night of celebration and forward-thinking vision!</p>
         </section>
         <section class="Wather-card">
             <h2>Weather</h2>
             <hr>
-            <figure>
-                <img id="weather-icon" src="placeholder.png" alt="weather icon">
-                <p class="weather-place"><span id="current-temp"></span> Sacramento, California</p>
-                <figcaption id="weather-type"></figcaption>
-            </figure>
-            <div class="windSpeed">Wind Speed: 3.0mph</div>
-            <div> Wind Chill: <span id="windChill"></span>&deg;F</div>
+            <div>
+                <figure>
+                    <img id="weather-icon" src="placeholder.png" alt="weather icon">
+                    <p class="weather-place"><span id="current-temp"></span> Sacramento, California</p>
+                    <figcaption id="weather-type"></figcaption>
+                </figure>
+                <div class="windSpeed">Wind Speed: 3.0mph</div>
+                <div> Wind Chill: <span id="windChill"></span>&deg;F</div>
+            </div>
+            
         </section>
-        <section class="spotlights">
+        <section id="members" class="spotlights" >
             <h2>Company</h2>
             <hr>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat non debitis aliquam, quae autem earum.</p>
@@ -91,5 +97,7 @@
     <script src="scripts/windchill.js"></script>
     <script src="scripts/weather.js"></script>
     <script src="scripts/bannerbutton.js"></script>
+    <script src="scripts/members.js"></script>
+    
 </body>
 </html>

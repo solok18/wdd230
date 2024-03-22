@@ -2,22 +2,22 @@ const url = 'https://raw.githubusercontent.com/solok18/wdd230/main/chamber/data/
 
 const cards = document.querySelector('#members');
 
-async function getProphetData() {
+async function getMemberData() {
     const response = await fetch(url);
     const data = await response.json();
     // console.table(data.prophets);
-    displayProphets(data.members);
+    displayMembers(data.members);
 
 }
 
-getProphetData();
+getMemberData();
 
-const displayProphets = (members) => {
+const displayMembers = (members) => {
     members.forEach((member) => {
         let card = document.createElement('section');
-        let address = document.createElement('h3');
-        let phoneNumber = document.createElement('h3');
-        let membership = document.createElement('h3');
+        let address = document.createElement('p');
+        let phoneNumber = document.createElement('p');
+        let membership = document.createElement('p');
         let website = document.createElement('a');
         let portrait = document.createElement('img');
 
@@ -29,7 +29,7 @@ const displayProphets = (members) => {
         
         website.setAttribute('href', member.websitesurl);
         website.target = "_blank";
-        website.textContent = "Smud.org";
+        website.textContent = member.name;
 
         portrait.setAttribute('src', member.imageurl);
         portrait.setAttribute('alt', `Logo of ${member.name}`);
