@@ -24,6 +24,11 @@
 	#menu {
 		display: none; /* hide hamburger button */
 	}
+	.light-dark {
+		right: 1rem;
+		top: 5rem;
+
+	}
 	.navigation {
 		flex-direction: row;
 		justify-content: space-around;
