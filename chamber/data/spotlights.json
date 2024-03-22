@@ -1,0 +1,61 @@
+{
+    "members" : [
+        {
+            "name" : "Smud",
+            "addresses" : "6301 S St, Sacramento, CA 95817",
+            "phonenumber" : "(888) 742-7683",
+            "websitesurl" : "https://www.smud.org/",
+            "imageurl" : "images/smud.png",
+            "membershiplevel" : "Gold"
+        },
+        {
+            "name" : "Sacramento Honey Company",
+            "addresses" : "2110 X St, Sacramento, CA 95818",
+            "phonenumber" : "(916) 451-2337",
+            "websitesurl" : "https://sacramentohoneycompany.com/",
+            "imageurl" : "images/sachoney.jpg",
+            "membershiplevel" : "Silver"
+        },
+        {
+            "name" : "Allspicery",
+            "addresses" : "1125 11th St, Sacramento, CA 95814",
+            "phonenumber" : "(916) 389-7828",
+            "websitesurl" : "https://allspicery.com/",
+            "imageurl" : "images/allspicery.png",
+            "membershiplevel" : "Gold"
+        },
+        {
+            "name" : "Rebuilding Together Sacramento",
+            "addresses" : "8231 Alpine Ave #3, Sacramento, CA 95826",
+            "phonenumber" : "(916) 455-1880",
+            "websitesurl" : "https://rebuildingtogethersacramento.org/",
+            "imageurl" : "images/rebuildtogether.png",
+            "membershiplevel" : "Non Profit"
+        },
+        {
+            "name" : "Public Land!",
+            "addresses" : "2598 21st Street, Sacramento, CA 95818",
+            "phonenumber" : "(916) 942-9720",
+            "websitesurl" : "https://www.publiclandstore.com/",
+            "imageurl" : "images/publicland.jpg",
+            "membershiplevel" : "Bronze"
+        },
+        {
+            "name" : "Ronald McDonald House Charities",
+            "addresses" : "2555 49th St, Sacramento, CA 95817",
+            "phonenumber" : "(916) 734-4230",
+            "websitesurl" : "http://www.rmhcnc.org/",
+            "imageurl" : "images/ronaldmcdonald.png",
+            "membershiplevel" : "Non Profit"
+        },
+        {
+            "name" : "Stage Nine",
+            "addresses" : "102 K STREET SACRAMENTO, CA 95814",
+            "phonenumber" : "916-447-3623",
+            "websitesurl" : "https://www.stagenine.com/",
+            "imageurl" : "images/stagenine.png",
+            "membershiplevel" : "Gold"
+        }
+        
+    ]
+}

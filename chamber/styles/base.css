@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Playfair+Display:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Playfair+Display:ital@0;1&display=swap'); /* There is a parse error here but not sure why as this is exactly how it given from the google font webpage.*/
 
 
 * {
@@ -207,7 +207,7 @@ section h3 {
     
 }
 
-/* dark mode  */
+/*---------------------- DARK MODE --------------------------*/
 .light-dark {
     position: absolute;
     /* z-index: 10; */
@@ -456,4 +456,13 @@ section h3 {
 
 .banner-text, .banner-exit, button {
     color: #4C462E;
+}
+
+
+.home {
+    margin: 0 auto;
+    padding: 0.5rem;
+    /* max-width: 1000px; */
+    background-color: #fff;
+    font-family: Playfair Display, Halvetica, sans-serif;
 }
