@@ -211,8 +211,8 @@ section h3 {
 .light-dark {
     position: absolute;
     /* z-index: 10; */
-    top: 5rem;
-    right: 3rem;
+    top: 7rem;
+    right: 1rem;
     font-size: 3rem;
     cursor: pointer;
     font-size: 1.5rem;
@@ -226,7 +226,13 @@ section h3 {
 }
 
 /* On here we will edit the discover page for the chmaber page  */
-
+/*--------------- DISCOVERY PAGE LAYOOUT  ----------------------*/
+.sidebar {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 25px;
+}
 .content {
     grid-column: 1/2;
     
