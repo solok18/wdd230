@@ -26,7 +26,7 @@ async function apiFetch() {
 }
 
 apiFetch();
-
+//------------------------USE THIS TO DISPLAY A SINGLE DAY OF WEATHER-------------------------------
 // function displayResults(data) {
 //     currentTemp.innerHTML = `${data.list[0].main.temp}&deg;F`;
 //     const iconsrc = `https://openweathermap.org/img/w/${data.list[0].weather[0].icon}.png`;
@@ -37,6 +37,8 @@ apiFetch();
 //     captionDesc.textContent = `${desc}`;
 
 // }
+
+//-------------------------USE THIS TO DISPLAY MULTIPLE DAYS OF WEATHER ----------------------------
  const displayForcast = (list) => {
     list.forEach((l) => {
         let card = document.createElement('section');
