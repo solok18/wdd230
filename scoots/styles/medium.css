@@ -9,13 +9,13 @@
 
 	/* ----------- HEADER ---------- */
 	h1 {
-		font-size: 4rem;
+		font-size: 3rem;
 	}
     /* ----------- MENU ----------- */
     .navigation {
 		flex-direction: row;
 		justify-content: space-around;
-		font-size: 2rem;
+		font-size: 1.5rem;
 	}
     .navigation a {
 		display: block;
@@ -87,4 +87,12 @@
 	
 		font-size: 2rem;
 	}
+
+	/* ---------------------------- CONTACT PAGE ------------------------------ */
+    #contact .rf1 {
+        grid-column: 1/2;
+    }
+    .general-info {
+        grid-column: 2/3;
+    }
 }

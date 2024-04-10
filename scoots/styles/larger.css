@@ -1,21 +1,21 @@
 @media only screen and (min-width: 1500px){
     /* ---------- BANNER MESSAGE ---------- */
     .banner-content {
-        max-width: 600px;
+        max-width: 300px;
     }
     .banner-text {
-        font-size: 3rem;
+        font-size: 1.5rem;
     }
 
     /* ----------- HEADER ---------- */
 	h1 {
-		font-size: 5rem;
+		font-size: 3rem;
 	}
     /* ----------- MENU ----------- */
     .navigation {
 		flex-direction: row;
 		justify-content: space-around;
-		font-size: 3rem;
+		font-size: 1.5rem;
 	}
     .navigation a {
 		display: block;
@@ -32,7 +32,7 @@
 
     /* ---------- MAIN ---------- */
 	#home section{
-		font-size: 2rem;
+		font-size: 1.5rem;
 	}
 
 	/* ---------- CALL TO ACTION ---------- */
@@ -43,7 +43,7 @@
 		padding: 2rem;
 	}
 	.call-to-action a {
-		font-size: 4rem;
+		font-size: 2rem;
 	}
 
 	/* ---------- SUMMARY OF RENTALS ---------- */
@@ -62,7 +62,11 @@
 
     /* ---------- FOOTER ----------- */
     footer {
-        font-size: 3rem;
+        font-size: 1.5rem;
+    }
+    /* ---------------------------- RENTAL PAGE ------------------------------ */
+    #rental table {
+        width: auto;
     }
 
     /* ---------------------------- RESERVATION PAGE ------------------------------ */
@@ -85,7 +89,7 @@
 	
 	.rf1 div {
 	
-		font-size: 2rem;
+		font-size: 1.5rem;
 	}
     .rf1 input[type="text"],
     .rf1 input[type="email"],
@@ -94,16 +98,34 @@
     {  
         padding: 1rem;  
         font-size: 1.5rem;
+        width: 100%;
+        max-width: 1000px;
     }
-    #reservation section{
-        font-size: 3rem;
+    
+    .rf1 textarea {
+        width: 100%;
+        max-width: 700px;
+        font-size: 1.5rem;
     }
     .rf1 input[type="submit"]
     {
         
-        padding: 2rem;
+        padding: 1rem;
         font-size: 2rem;
         margin: 10px;
+        width: 100%;
+        max-width: 700px;
         
+    }
+    #reservation section{
+        font-size: 1.5rem;
+    }
+
+    /* ---------------------------- CONTACT PAGE ------------------------------ */
+    #contact .rf1 {
+        grid-column: 1/2;
+    }
+    .general-info {
+        grid-column: 2/3;
     }
 }

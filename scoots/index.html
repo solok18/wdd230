@@ -22,7 +22,7 @@
     <div class="banner">
         <div class="banner-content">
             <div class="banner-text">
-                <strong>Max Temp:</strong> 90 degree
+                <strong>Max Temp: <span id="max-temp"></span></strong>
             </div>
             <button class="banner-exit" type="button">
                 ❌
@@ -52,14 +52,17 @@
         <section class="rentals">
             <h2>RENTALS</h2>
             <div class="scooter">
+                <h3>SCOOTER</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non cum animi qui, incidunt nostrum quasi magni nemo eius iste dolor soluta pariatur saepe enim, maxime amet quae dolore et consequuntur.</p>
                 <img src="images/rentals/dio.jpg" alt="dio">
             </div>
             <div class="atvs">
+                <h3>ATV's</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum minus fugit fugiat modi eaque praesentium perspiciatis, dolor, cumque pariatur numquam dolore quibusdam autem, dignissimos voluptates cum temporibus non molestias quod!</p>
                 <img src="images/rentals/pioneer1000.jpg" alt="pioneer">
             </div>
             <div class="jeeps">
+                <h3>JEEPS</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, praesentium, aperiam mollitia, iure amet sed perferendis delectus minus ipsum voluptate ratione repudiandae voluptatibus error aspernatur? Sunt cum quisquam repudiandae. Fugit!</p>
                     <img src="images/rentals/wrangler2door.jpg" alt="">
             </div>
@@ -69,6 +72,8 @@
             <div>
                 <img id="weather-icon" src="" alt="">
                 <p class="weather-place"><span id="current-temp"></span> Cozumel, Mexico</p>
+                <p class="weather-humidity">Humidity: <span id="humidity"></span></p>
+                <p class="next-day-weather">Tomorrow: <span id="next-day"></span></p>
                 <p id="weather-type"></p>
             <!-- <figcaption id="weather-type"></figcaption> -->
             </div>
