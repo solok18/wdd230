@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=GFS+Neohellenic:ital@0;1&family=Urbanist:ital@0;1&display=swap');
+
+
+
+:root {
+    --primary-color: #4193A6  ;
+    --secondary-color: #F2E6D0 ;
+    --accent1-color: #93BBBF;
+    --accent2-color: #D9CEBA;
+  
+    --heading-font: "Urbanist";
+    --paragraph-font: GFS Neohellenic, Helvetica, sans-serif;
+  
+    --headline-color-on-white: #4193A6; 
+    --headline-color-on-color: #4193A6 ; 
+    --paragraph-color-on-white: #4193A6; 
+    --paragraph-color-on-color: #ffffff; 
+    --paragraph-background-color: #F2E6D0   ;
+    --nav-link-color: #93BBBF;
+    --nav-background-color: #F2E6D0;
+    --nav-hover-link-color: #D9CEBA;
+    --nav-hover-background-color: #ffd770;
+  }
+
+  body {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 4em;
+    font-size: 18px;
+    text-align: center;
+  }
+  img {
+    display: block;
+    margin: 0 auto;
+    max-width: 600px;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--headline-color-on-white);
+  }
+  h2 {
+    text-align: center;
+  }
+  hr {
+    height: 3px;
+    margin: 35px 0;
+    background: var(--accent1-color);
+  }
+  header {
+    padding: 1em;
+    text-align: center;
+    color: var(--headline-color-on-color);
+    background-color: var(--paragraph-background-color);
+  }
+  header > h1, header > h2 {
+    color: var(--headline-color-on-color);
+  }
+  p {
+    font-family: var(--paragraph-font);
+    color: var(--paragraph-color-on-white);
+    padding: 1em;
+  }
+  .colors {
+    width: 100%;
+    min-width: 350px;
+    margin: 30px auto;
+    text-align: center;
+  }
+  .colors th {
+    background-color: #999;
+  }
+  .colors td{
+    width: 25%;
+    height: 3em;
+  }
+  .primary {
+    background-color: var(--primary-color);
+  }
+  .secondary {
+    background-color: var(--secondary-color);
+  }
+  .accent1 {
+    background-color: var(--accent1-color);
+  }
+  .accent2{
+    background-color: var(--accent2-color);
+  }
+  p.colored {
+    background-color: var(--paragraph-background-color);
+    color: var(--paragraph-color-on-color);
+  }
+ 
+  

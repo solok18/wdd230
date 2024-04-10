@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=GFS+Neohellenic:ital@0;1&family=Urbanist:ital@0;1&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+:root {
+    --primary-color: #4193A6;
+    --secondary-color: #F2E6D0;
+    --accent-one-color: #93BBBF;
+    --accent-two-color: #D9CEBA;
+}
+
+/* ----------- EIDTS FOR THE BODY OF THE WEBSITE ----------- */
+body {
+    margin: 0;
+    font-family: GFS Neohellenic, Helvetica, sans-serif;
+}
+
+/* ---------- BANNER MESSAGE ---------- */
+.banner {
+    background-color: var(--primary-color);
+}
+.banner-content {
+    padding: 16px;
+    max-width: 300px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.banner-text {
+    flex-grow: 1;
+    line-height: 1.4;
+    font-family: GFS Neohellenic, Helvetica, sans-serif;
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+}
+.banner-exit {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* ----------- HEADER ---------- */
+header {
+    background-color: var(--secondary-color);
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    color: var(--primary-color);
+    font-family: Urbanist, Arial, Helvetica, sans-serif;
+}
+
+/* ----------- MENU ----------- */
+.navigation {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-size: 1.25rem;
+}
+.navigation a {
+    display: none;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+.navigation a:hover
+{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+} 
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav li {
+    text-align: left;
+}
+.open a {
+    display: block;
+}
+
+/* ---------- MENU BUTTON ---------- */
+#menu {
+    font-size: 1.5rem;
+    border: 0;
+    background: none;
+    position: absolute;
+    right: 0;
+    top: 1em;
+}
+#menu::before {
+    content: "☰";
+}
+#menu.opem::before {
+    content: "─";
+}
+
+/* ---------- MAIN ---------- */
+#home {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    /* grid-template-rows: 1fr 1fr; */
+}
+#home section{
+    padding: 20px;
+    width: 100%;
+}
+#home h2 {
+    font-family: Urbanist, Arial, Helvetica, sans-serif;
+}
+
+
+/* ---------- HERO IMAGE ---------- */
+.hero {
+    /* margin: 10px auto; */
+    position: relative;
+    /* border: 1px solid rgba(0,0,0,.1); */
+    height: auto;
+    grid-column: 1/3;
+    /* grid-row: 1/3; */
+}
+.hero img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    
+}
+
+/* ---------- CALL TO ACTION ---------- */
+.call-to-action {
+    position: absolute;
+    top: 200px;
+    left: 30px;
+    background-color: var(--secondary-color);
+    padding: 1.5rem;
+    /* opacity: .80; */
+    border-radius: 10px;
+    
+}
+.call-to-action a {
+    margin: 0;
+    padding: .25rem;
+    font-weight: 550;
+    font-size: 2rem;
+    color: var(--primary-color);
+    text-decoration: none;
+    
+}
+
+/* ---------- SUMMARY OF RENTALS ---------- */
+.rentals {
+    /* display: grid; */
+    /* grid-template-rows: 1fr 1fr 1fr; */
+    
+    border: 5px solid rgba(0,0,0,.1);
+    width: 100%;
+    grid-column: 1/3;
+    grid-row: 2/4;
+    text-align: center;
+    /* font-size: 2rem; */
+}
+/* .rentals div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 5px solid rgba(0,0,0,.1);
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 20px;
+    
+} */
+.rentals img {
+    align-content: center;
+}
+.rentals p {
+    text-align: left;
+}
+
+ /* --------- WEATHER --------- */
+ .weather {
+    
+    border: 5px solid rgba(0,0,0,.1);
+    width: 100%;
+    grid-column: 1/3;
+    text-align: center;
+    /* font-size: 2rem; */
+}
+/* .weather div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 5px solid rgba(0,0,0,.1);
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    padding: 20px; 
+} */
+
+/* --------- CONTACT INFO SECTION --------- */
+.contact-info{
+    width: 100%;
+    grid-column: 1/3;
+    border: 5px solid rgba(0,0,0,.1);
+    text-align: center;
+    /* font-size: 2rem; */
+    padding-right: 10px;
+}
+/* .contact-info div {
+    border: 5px solid rgba(0,0,0,.1);
+    width: 100%;
+    padding: 10px;
+    padding-right: 30px;
+} */
+.contact-info ul {
+    list-style: none;
+}
+/* .contact-info li {
+    text-align: left;
+} */
+
+/* ---------- FOOTER ----------- */
+footer {
+    margin: auto;
+    background-color: var(--secondary-color);
+    text-align: center;
+    color: var(--primary-color);
+    padding: 10px;
+}
+.site-plan {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+
+
+/* ---------------------------- RENTAL PAGE ------------------------------ */
+#rental {
+    font-family: GFS Neohellenic, Helvetica, sans-serif;
+}
+
+#rental table {
+    border-collapse: collapse;
+    border:  2px solid var(--primary-color);
+    letter-spacing: 1px;
+    font-size: 2rem;
+}
+
+#rental .empty {
+    background-color: var(--accent-two-color);
+}
+#rental th {
+    background-color: var(--accent-two-color);
+    color: var(--primary-color);
+    font-size: large;
+    font-weight: bold;
+    border: 2px solid var(--primary-color);
+    padding: 10px 20px;
+}
+#rental td {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border: 2px solid var(--primary-color);
+    padding: 10px 20px;
+}
+
+#rental tr:first-child th{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+#rental tr:nth-child(even) td {
+    background-color: var(--accent-two-color) ;
+    color: var(--primary-color);
+}
+
+#rental tr:nth-child(odd) td {
+    background-color: var(--accent-one-color);
+    color: var(--secondary-color);
+}
+
+/* ---------------------------- RESERVATION PAGE ------------------------------ */
+#reservation {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 25px;
+}
+
+.rf1 {
+    /* grid-row: 1/2; */
+    grid-column: 1/3;
+    border: solid 3px var(--primary-color);
+}
+
+.agreement {
+    grid-column: 1/3;
+}
+
+.rf1 fieldset {
+    margin: 2rem 0;
+    border: 3px solid var(--primary-color);
+    border-radius: 10px;
+    padding: .5rem 2%;
+    text-align: left;
+    width: 95%;
+    margin: 10px;
+}
+
+.rf1 legend {
+    color: var(--primary-color);
+    padding: 0 .5rem;
+    font-size: 1.5rem;
+}
+
+.rf1 label {
+    display: block;
+    padding-top: 1rem;
+    color: var(--primary-color);
+    font-size: 1.15rem;
+}
+
+.rf1 div {
+    padding-top: 1rem;
+    color: var(--primary-color);
+    font-size: 1.15rem;
+}
+
+.rf1 input[type="text"],
+.rf1 input[type="email"],
+.rf1 input[type="tel"],
+.rf1 input[type="date"]
+{
+    display: block;
+    border: solid 1px var(--accent-one-color);
+    border-radius: 5px;
+    padding: .50rem;
+    color: var(--primary-color);
+    width: 100%;
+    max-width: 400px;
+    appearance: none;
+}
+
+.rf1 textarea {
+    display: block;
+    border: solid 1px var(--accent-one-color);
+    border-radius: 5px;
+    padding: .75rem;
+    color: var(--primary-color);
+    width: 100%;
+    max-width: 400px;
+    appearance: none;
+}
+
+.rf1 input[type="submit"]
+{
+    border: none;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 5px;
+    padding: .8rem;
+    width: 100%;
+    max-width: 400px;
+    margin: -1rem 2% 2rem 2%;
+    margin: 5px;
+}
+.rf1 input:required {
+    border-right: solid 8px red;
+}
+.rf1 input:required:valid {
+    border-right: solid 8px green;
+}
+
+#reservation section{
+    border: 3px solid var(--primary-color);
+    border-radius: 10px;
+    text-align: center;
+    color: var(--primary-color);
+}
+.agreement ul {
+    list-style: none;
+}
+.agreement li {
+    text-align: left;
+}
+.agreement h2 {
+    color: var(--primary-color);
+}

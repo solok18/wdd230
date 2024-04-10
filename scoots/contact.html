@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoots</title>
+    <meta
+    name="description"
+    content="Scoots is the place to go for your motor scooter rental needs.">
+    <meta name="author" content="Kevin Solorzano">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="">
+    <!-- DO NOT FORGET TO COME BACK TO THIS META -->
+    <meta property="og:title" content="Kevin Solorzano - Scoots">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+</head>
+<body>
+    <div class="banner">
+        <div class="banner-content">
+            <div class="banner-text">
+                <strong>Max Temp:</strong> 90 degree
+            </div>
+            <button class="banner-exit" type="button">
+                ❌
+            </button>
+        </div>
+    </div>
+    <header>
+        <h1>SCOOTS</h1>
+    </header>
+    <button id="menu" title="menu"></button>
+    <nav class="navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="rental.html">Rental</a></li>
+            <li><a href="reservation.html">Reservation</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main id="reservation">
+        <form method="get" action="" class="rf1">
+            <fieldset>
+                <legend>Contact Us</legend>
+                <label>Name*<input type="text" name="name" id="name" required placeholder="John Smith"></label>
+                <label>Email*<input type="email" name="cemail" id="cemail" placeholder="someone@gmail.com" required></label>
+            
+                <div>Comments</div>
+                <textarea name="comment" id="comment" cols="40" rows="10" placeholder="Anything you would like to let us know."></textarea>
+                <label><input type="hidden" name="dt" id="dt"></label>
+            </fieldset>
+            <input type="submit" value="Rent">
+        </form>
+        <section>
+            <h2>Rental Services and Agreements</h2>
+            <ul>
+                <li>A $50 security deposit is required to confirm reservations.</li>
+                <li>A valid drivers license is required in hand at the time of rental.</li>
+                <li>No one under the age of 12 years of age are allowed to ride on the scooters.</li>
+                <li>Fuel charge is not included.</li>
+                <li>Unlimited mileage.</li>
+                <li>Liability insurance is included.</li>
+                <li>Damage insurance is available for purchase.</li>
+                <li>Free delivery to Cozumel hotels or Airbnbs for 2+ day rentals.</li>
+                <li>Payment via Google Pay, Apple Pay, cash, credit card, debit card, or venmo.</li>
+                <li>Rentals may be returned to either physical location.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Scoot's location</h2>
+            <iframe src="https://www.google.com/maps/d/embed?mid=1orbGjtHbtS6oADn_BHv5aK-bC-INvVw&hl=en&ehbc=2E312F" width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </main>
+    <footer>
+        <p>
+            &copy; 2024 | Scoots | scoots@gmail.com | <a href="scoots-site-plan.html" target="_blank" class="site-plan">Site Plan</a>
+        </p>
+    </footer>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/bannerbutton.js"></script>
+</body>
+</html>

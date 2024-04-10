@@ -1,0 +1,90 @@
+@media only screen and (min-width: 600px){
+	/* ---------- BANNER MESSAGE ---------- */
+    .banner-content {
+        max-width: 300px;
+    }
+    .banner-text {
+        font-size: 1.5rem;
+    }
+
+	/* ----------- HEADER ---------- */
+	h1 {
+		font-size: 4rem;
+	}
+    /* ----------- MENU ----------- */
+    .navigation {
+		flex-direction: row;
+		justify-content: space-around;
+		font-size: 2rem;
+	}
+    .navigation a {
+		display: block;
+		flex: 1 1 100%;
+	}
+    nav ul {
+		display: flex;	
+	}
+
+	/* ---------- MENU BUTTON ---------- */
+	#menu {
+		display: none; /* hide hamburger button */
+	}
+
+	/* ---------- MAIN ---------- */
+	#home section{
+		font-size: 1.25rem;
+	}
+
+	/* ---------- CALL TO ACTION ---------- */
+	.call-to-action {
+		
+		top: 400px;
+		left: 50px;
+		padding: 2rem;
+	}
+	.call-to-action a {
+		font-size: 2rem;
+	}
+
+	/* ---------- SUMMARY OF RENTALS ---------- */
+	.rentals {
+		grid-column: 1/2;
+	}
+
+	/* --------- WEATHER --------- */
+	.weather{
+		grid-column: 2/3;
+	}
+	/* --------- CONTACT INFO SECTION --------- */
+	.contact-info{
+		grid-column: 2/3;
+	}
+
+	/* ---------- FOOTER ----------- */
+    footer {
+        font-size: 1.5rem;
+    }
+
+	/* ---------------------------- RESERVATION PAGE ------------------------------ */
+	.rf1 {
+		/* grid-row: 1/2; */
+		grid-column: 1/2;
+	}
+	.agreement {
+		grid-column: 2/3;
+	}
+	.rf1 legend {
+		
+		font-size: 2rem;
+	}
+	
+	.rf1 label {
+		
+		font-size: 2rem;
+	}
+	
+	.rf1 div {
+	
+		font-size: 2rem;
+	}
+}
