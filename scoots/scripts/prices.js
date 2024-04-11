@@ -83,17 +83,6 @@ function displayResults(data) {
     rFullDay5.innerHTML = `${data.rentals[5].reservation[0].fullDay}`;
     wHalfDay5.innerHTML = `${data.rentals[5].reservation[0].halfDay}`;
     wFullDay5.innerHTML = `${data.rentals[5].reservation[0].fullDay}`;
-    // maxweather.innerHTML = `${data.list[0].main.temp_max}&deg;F`;
-    // humidity.innerHTML = `${data.list[0].main.humidity}&deg;F`;
-    // const index = data.list.findIndex(item => {
-    //     const time = item.dt_txt;
-    //     return time.includes("15:00:00");
-    // });
-    // nextDay.innerHTML = `${data.list[1].main.temp}&deg;F`;
-    // const iconsrc = `https://openweathermap.org/img/w/${data.list[0].weather[0].icon}.png`;
-    // let desc = data.list[0].weather[0].description;
-    // weatherIcon.setAttribute('src', iconsrc);
-    // weatherIcon.setAttribute('alt', desc);
-    // captionDesc.textContent = `${desc}`;
+    
 }
 

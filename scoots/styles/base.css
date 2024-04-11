@@ -65,6 +65,7 @@ header {
     text-align: center;
     text-decoration: none;
     color: var(--secondary-color);
+    
 }
 
 .navigation a:hover
@@ -83,6 +84,7 @@ nav li {
 }
 .open a {
     display: block;
+    
 }
 
 /* ---------- MENU BUTTON ---------- */
@@ -93,6 +95,7 @@ nav li {
     position: absolute;
     right: 0;
     top: 1em;
+    
 }
 #menu::before {
     content: "☰";
@@ -140,19 +143,23 @@ nav li {
 /* ---------- CALL TO ACTION ---------- */
 .call-to-action {
     position: absolute;
-    top: 200px;
-    left: 30px;
+    /* position: fixed; */
+ 
+    /* top: 200px; */
+    /* left: 30px; */
     background-color: var(--secondary-color);
-    padding: 1.5rem;
+    padding: 1rem;
+    margin: 30px;
     /* opacity: .80; */
     border-radius: 10px;
+    
     
 }
 .call-to-action a {
     margin: 0;
     padding: .25rem;
     font-weight: 550;
-    font-size: 2rem;
+    font-size: 1rem;
     color: var(--primary-color);
     text-decoration: none;
     
@@ -254,9 +261,10 @@ footer {
     border-collapse: collapse;
     border:  2px solid var(--primary-color);
     letter-spacing: 1px;
-    font-size: 2rem;
+    /* font-size: 2rem; */
     /* width: 100%; */
-    margin: 20px 15px
+    /* min-width: 100px; */
+    /* margin: 20px 15px */
 }
 
 /* #rental .empty {
@@ -265,17 +273,17 @@ footer {
 #rental th {
     background-color: var(--accent-two-color);
     color: var(--primary-color);
-    font-size: large;
+    /* font-size: large; */
     font-weight: bold;
     border: 2px solid var(--primary-color);
     /* border-left: 2px solid var(--primary-color); */
     /* border-right: 2px solid var(--primary-color); */
-    padding: 10px 20px;
+    /* padding: 10px 20px; */
 }
 #rental td {
     text-align: center;
     font-weight: bold;
-    font-size: 1.5rem;
+    /* font-size: 1rem; */
     border: 2px solid var(--primary-color);
     /* border-left: 2px solid var(--primary-color); */
     /* border-right: 2px solid var(--primary-color); */
