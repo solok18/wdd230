@@ -278,7 +278,7 @@ footer {
     border: 2px solid var(--primary-color);
     /* border-left: 2px solid var(--primary-color); */
     /* border-right: 2px solid var(--primary-color); */
-    /* padding: 10px 20px; */
+    padding: 5px 5px;
 }
 #rental td {
     text-align: center;
@@ -287,7 +287,7 @@ footer {
     border: 2px solid var(--primary-color);
     /* border-left: 2px solid var(--primary-color); */
     /* border-right: 2px solid var(--primary-color); */
-    padding: 10px 15px;
+    /* padding: 10px 10px; */
     text-align: center;
 }
 #rental img {
