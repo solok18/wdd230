@@ -401,7 +401,7 @@ iframe {
 }
 
 /* ---------------------------- THANK YOU PAGE ------------------------------ */
-#thank-you section {
+#thank-you div {
     border: 5px solid var(--primary-color);
     border-radius: 10px;
     margin: 50px;
