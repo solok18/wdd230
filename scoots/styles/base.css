@@ -4,10 +4,10 @@
     box-sizing: border-box;
 }
 :root {
-    --primary-color: #4193A6;
-    --secondary-color: #F2E6D0;
-    --accent-one-color: #93BBBF;
-    --accent-two-color: #D9CEBA;
+    --primary-color: #398293;
+    --secondary-color: #F6EEDF;
+    --accent-one-color: #659EA4;
+    --accent-two-color: #EEDFD2;
 }
 
 /* ----------- EIDTS FOR THE BODY OF THE WEBSITE ----------- */
@@ -44,7 +44,6 @@ body {
 header {
     background-color: var(--secondary-color);
     display: flex;
-    /* align-items: center; */
     justify-content: center;
     color: var(--primary-color);
     font-family: Urbanist, Arial, Helvetica, sans-serif;
@@ -109,7 +108,6 @@ nav li {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
-    /* grid-template-rows: 1fr 1fr; */
 }
 #home section{
     padding: 20px;
@@ -126,12 +124,9 @@ nav li {
 
 /* ---------- HERO IMAGE ---------- */
 .hero {
-    /* margin: 10px auto; */
     position: relative;
-    /* border: 1px solid rgba(0,0,0,.1); */
     height: auto;
     grid-column: 1/3;
-    /* grid-row: 1/3; */
 }
 .hero img {
     width: 100%;
@@ -143,17 +138,10 @@ nav li {
 /* ---------- CALL TO ACTION ---------- */
 .call-to-action {
     position: absolute;
-    /* position: fixed; */
- 
-    /* top: 200px; */
-    /* left: 30px; */
     background-color: var(--secondary-color);
     padding: 1rem;
     margin: 30px;
-    /* opacity: .80; */
     border-radius: 10px;
-    
-    
 }
 .call-to-action a {
     margin: 0;
@@ -167,26 +155,14 @@ nav li {
 
 /* ---------- SUMMARY OF RENTALS ---------- */
 .rentals {
-    /* display: grid; */
-    /* grid-template-rows: 1fr 1fr 1fr; */
-    
     border: 5px solid var(--accent-one-color);
     border-radius: 10px;
     width: 100%;
     grid-column: 1/3;
     grid-row: 2/4;
     text-align: center;
-    /* font-size: 2rem; */
 }
-/* .rentals div {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    border: 5px solid rgba(0,0,0,.1);
-    width: 100%;
-    margin-bottom: 20px;
-    padding: 20px;
-    
-} */
+
 .rentals img {
     align-content: center;
 }
@@ -202,17 +178,9 @@ nav li {
     width: 100%;
     grid-column: 1/3;
     text-align: center;
-    /* font-size: 2rem; */
+    
 }
-/* .weather div {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    border: 5px solid rgba(0,0,0,.1);
-    width: 100%;
-    margin: 0;
-    text-align: center;
-    padding: 20px; 
-} */
+
 
 /* --------- CONTACT INFO SECTION --------- */
 .contact-info{
@@ -221,21 +189,13 @@ nav li {
     border: 5px solid var(--accent-one-color);
     border-radius: 10px;
     text-align: center;
-    /* font-size: 2rem; */
     padding-right: 10px;
 }
-/* .contact-info div {
-    border: 5px solid rgba(0,0,0,.1);
-    width: 100%;
-    padding: 10px;
-    padding-right: 30px;
-} */
+
 .contact-info ul {
     list-style: none;
 }
-/* .contact-info li {
-    text-align: left;
-} */
+
 
 /* ---------- FOOTER ----------- */
 footer {
@@ -261,33 +221,25 @@ footer {
     border-collapse: collapse;
     border:  2px solid var(--primary-color);
     letter-spacing: 1px;
-    /* font-size: 2rem; */
-    /* width: 100%; */
-    /* min-width: 100px; */
-    /* margin: 20px 15px */
+    
 }
 
-/* #rental .empty {
-    background-color: var(--accent-two-color);
-} */
+
 #rental th {
-    background-color: var(--accent-two-color);
+    background-color: var(--secondary-color);
     color: var(--primary-color);
-    /* font-size: large; */
+    
     font-weight: bold;
-    border: 2px solid var(--primary-color);
-    /* border-left: 2px solid var(--primary-color); */
-    /* border-right: 2px solid var(--primary-color); */
+    border: 2px solid var(--accent-one-color);
+    
     padding: 5px 5px;
 }
 #rental td {
     text-align: center;
     font-weight: bold;
-    /* font-size: 1rem; */
-    border: 2px solid var(--primary-color);
-    /* border-left: 2px solid var(--primary-color); */
-    /* border-right: 2px solid var(--primary-color); */
-    /* padding: 10px 10px; */
+    
+    border: 2px solid var(--accent-one-color);
+    
     text-align: center;
 }
 #rental img {
@@ -296,17 +248,7 @@ footer {
 }
 
 #rental tr:first-child th{
-    /* background-color: var(--primary-color); */
-    color: var(--primary-color);
-}
 
-#rental tr:nth-child(even) td {
-    /* background-color: var(--accent-two-color) ; */
-    color: var(--primary-color);
-}
-
-#rental tr:nth-child(odd) td {
-    /* background-color: var(--accent-one-color); */
     color: var(--primary-color);
 }
 
@@ -319,7 +261,7 @@ footer {
 }
 
 .rf1 {
-    /* grid-row: 1/2; */
+    
     grid-column: 1/3;
     border: solid 5px var(--primary-color);
     border-radius: 10px;

@@ -3,23 +3,23 @@
 
 
 :root {
-    --primary-color: #4193A6  ;
-    --secondary-color: #F2E6D0 ;
-    --accent1-color: #93BBBF;
-    --accent2-color: #D9CEBA;
+    --primary-color: #398293  ;
+    --secondary-color: #F6EEDF ;
+    --accent1-color: #659EA4;
+    --accent2-color: #EEDFD2;
   
     --heading-font: "Urbanist";
     --paragraph-font: GFS Neohellenic, Helvetica, sans-serif;
   
-    --headline-color-on-white: #4193A6; 
-    --headline-color-on-color: #4193A6 ; 
-    --paragraph-color-on-white: #4193A6; 
+    --headline-color-on-white: #398293; 
+    --headline-color-on-color: #398293 ; 
+    --paragraph-color-on-white: #398293; 
     --paragraph-color-on-color: #ffffff; 
-    --paragraph-background-color: #F2E6D0   ;
-    --nav-link-color: #93BBBF;
-    --nav-background-color: #F2E6D0;
-    --nav-hover-link-color: #D9CEBA;
-    --nav-hover-background-color: #ffd770;
+    --paragraph-background-color: #F6EEDF   ;
+    --nav-link-color: #659EA4;
+    --nav-background-color: #F6EEDF;
+    --nav-hover-link-color: #EEDFD2;
+    --nav-hover-background-color: #F6EEDF;
   }
 
   body {

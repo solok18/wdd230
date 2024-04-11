@@ -5,7 +5,6 @@ const maxweather = document.querySelector("#max-temp");
 const humidity = document.querySelector("#humidity");
 const nextDay = document.querySelector("#next-day")
 
-// const url = "https://api.openweathermap.org/data/2.5/weather?lat=20.48&lon=-86.88&units=imperial&appid=0c57d46afcca46d45f1328b8d715c9e5"
 const url = "https://api.openweathermap.org/data/2.5/forecast?lat=20.48&lon=-86.88&units=imperial&appid=0c57d46afcca46d45f1328b8d715c9e5"
 
 async function apiFetch() {

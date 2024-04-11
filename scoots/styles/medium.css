@@ -37,9 +37,6 @@
 
 	/* ---------- CALL TO ACTION ---------- */
 	.call-to-action {
-		
-		/* top: 400px; */
-		/* left: 50px; */
 		padding: 2rem;
 		margin: 50px;
 	}
@@ -69,13 +66,8 @@
     #rental table {
         width: 100%;
     }
-	/* #rental img {
-        width: 100%;
-    } */
-
 	/* ---------------------------- RESERVATION PAGE ------------------------------ */
 	.rf1 {
-		/* grid-row: 1/2; */
 		grid-column: 1/2;
 	}
 	.agreement {
