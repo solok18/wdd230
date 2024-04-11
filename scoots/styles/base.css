@@ -284,6 +284,7 @@ footer {
 }
 #rental img {
     align-content: center;
+    width: 100%;
 }
 
 #rental tr:first-child th{

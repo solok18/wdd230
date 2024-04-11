@@ -65,8 +65,12 @@
         font-size: 1.5rem;
     }
     /* ---------------------------- RENTAL PAGE ------------------------------ */
-    #rental table {
-        width: auto;
+    /* #rental table {
+        width: 100% ;
+        
+    } */
+    #rental img {
+        width: 75%;
     }
 
     /* ---------------------------- RESERVATION PAGE ------------------------------ */
